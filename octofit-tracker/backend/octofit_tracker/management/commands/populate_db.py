@@ -5,7 +5,7 @@ import datetime
 
 
 class Command(BaseCommand):
-    help = 'Populate the database with sample OctoFit Tracker data'
+    help = 'Populate the octofit_db database with test data'
 
     def handle(self, *args, **kwargs):
         self.stdout.write('Clearing existing data...')
