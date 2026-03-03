@@ -1,0 +1,89 @@
+.app-shell {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: linear-gradient(180deg, #eef6ff 0%, #f5fffb 100%);
+  color: #1f2937;
+}
+
+.navbar .nav-link.btn {
+  border: 0;
+  text-decoration: none;
+}
+
+.navbar .nav-link.btn.active {
+  font-weight: 600;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1d4ed8 0%, #0891b2 100%) !important;
+}
+
+.octofit-logo {
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background: #fff;
+}
+
+.card h1,
+.card h2,
+.card h3,
+.card h4 {
+  color: #1e3a8a;
+}
+
+.octo-table-wrapper {
+  border: 1px solid #e9ecef;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.octo-table thead th {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: #0f172a;
+  background-color: #dbeafe !important;
+}
+
+.octo-table tbody td {
+  vertical-align: middle;
+  color: #1f2937;
+}
+
+.octo-table tbody tr:nth-child(even) {
+  background-color: #f8fbff;
+}
+
+a {
+  color: #0c4a6e;
+}
+
+a:hover {
+  color: #0ea5e9;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #2563eb 0%, #0284c7 100%);
+  border-color: #1d4ed8;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #1d4ed8 0%, #0369a1 100%);
+  border-color: #1e40af;
+}
+
+.btn-outline-primary {
+  border-color: #0284c7;
+  color: #0369a1;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0284c7;
+  border-color: #0284c7;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.2);
+}
